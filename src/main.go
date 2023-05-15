@@ -22,9 +22,9 @@ func main() {
 
 	})
 
-	router.Run(":8080")
+	router.Run(":80")
 
-	fmt.Println("Server running on port 8080")
+	fmt.Println("Server running on port 80")
 
 	//router.Run()
 

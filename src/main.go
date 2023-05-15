@@ -17,7 +17,7 @@ func main() {
 	router.GET(api_uri, func(c *gin.Context) {
 
 		c.JSON(http.StatusOK, gin.H{
-			"message": "pong",
+			"message": "Initial backend for betify!",
 		})
 
 	})
